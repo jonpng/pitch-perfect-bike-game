@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pitch-perfect-bike", "Assembly-CSharp-firstpass.csproj", "{18792F84-0CF6-C9CD-012D-9AEBCB1389CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pitch-perfect-bike", "Assembly-CSharp.csproj", "{A900B3D4-2291-6E6B-018C-0623B6F8DCCE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pitch-perfect-bike", "Assembly-CSharp-Editor-firstpass.csproj", "{4BDA7B81-430A-0A39-8FE9-C387429443C1}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{18792F84-0CF6-C9CD-012D-9AEBCB1389CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18792F84-0CF6-C9CD-012D-9AEBCB1389CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18792F84-0CF6-C9CD-012D-9AEBCB1389CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A900B3D4-2291-6E6B-018C-0623B6F8DCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A900B3D4-2291-6E6B-018C-0623B6F8DCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A900B3D4-2291-6E6B-018C-0623B6F8DCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A900B3D4-2291-6E6B-018C-0623B6F8DCCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BDA7B81-430A-0A39-8FE9-C387429443C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BDA7B81-430A-0A39-8FE9-C387429443C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDA7B81-430A-0A39-8FE9-C387429443C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
