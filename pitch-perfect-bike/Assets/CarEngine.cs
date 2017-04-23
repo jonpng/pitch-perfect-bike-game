@@ -5,7 +5,7 @@ using UnityEngine;
 public class CarEngine : MonoBehaviour {
 
 	public Transform path;
-	public float maxSteerAngle = 45f;
+	public float maxSteerAngle = 60f;
 	public WheelCollider wheelFL;
 	public WheelCollider wheelFR;
 
