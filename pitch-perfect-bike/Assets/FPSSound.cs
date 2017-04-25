@@ -38,22 +38,22 @@ public class FPSSound : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance (bikerack1.position, transform.position) < 50) {
+		if (Vector3.Distance (bikerack1.position, transform.position) < 65) {
 			if (timingbike < Time.time) {
 				playedbike = true;
 				timingbike = Time.time + delay;
 			}
-		} else if (Vector3.Distance (bikerack2.position, transform.position) < 50) {
+		} else if (Vector3.Distance (bikerack2.position, transform.position) < 65) {
 			if (timingbike < Time.time) {
 				playedbike = true;
 				timingbike = Time.time + delay;
 			}
-		} else if (Vector3.Distance (bikerack3.position, transform.position) < 50) {
+		} else if (Vector3.Distance (bikerack3.position, transform.position) < 65) {
 			if (timingbike < Time.time) {
 				playedbike = true;
 				timingbike = Time.time + delay;
 			}
-		} else if (Vector3.Distance (bikerack4.position, transform.position) < 50) {
+		} else if (Vector3.Distance (bikerack4.position, transform.position) < 65) {
 			if (timingbike < Time.time) {
 				playedbike = true;
 				timingbike = Time.time + delay;
@@ -66,22 +66,22 @@ public class FPSSound : MonoBehaviour {
 			playedbike = false;
 		}
 
-		if (Vector3.Distance (crowd1.position, transform.position) < 30) {
+		if (Vector3.Distance (crowd1.position, transform.position) < 45) {
 			if (timingcrowd < Time.time) {
 				playedcrowd = true;
 				timingcrowd = Time.time + delay;
 			}
-		} else if (Vector3.Distance (crowd2.position, transform.position) < 30) {
+		} else if (Vector3.Distance (crowd2.position, transform.position) < 45) {
 			if (timingcrowd < Time.time) {
 				playedcrowd = true;
 				timingcrowd = Time.time + delay;
 			}
-		} else if (Vector3.Distance (crowd3.position, transform.position) < 30) {
+		} else if (Vector3.Distance (crowd3.position, transform.position) < 45) {
 			if (timingcrowd < Time.time) {
 				playedcrowd = true;
 				timingcrowd = Time.time + delay;
 			}
-		} else if (Vector3.Distance (crowd4.position, transform.position) < 30) {
+		} else if (Vector3.Distance (crowd4.position, transform.position) < 45) {
 			if (timingcrowd < Time.time) {
 				playedcrowd = true;
 				timingcrowd = Time.time + delay;
